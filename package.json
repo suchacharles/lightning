@@ -19,16 +19,15 @@
   "author": "SuchACharles",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.0",
-    "@tailwindcss/ui": "^0.6.2",
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "electron-updater": "^4.3.5",
     "ngrok": "^3.3.0",
-    "tailwindcss": "^1.8.10",
+    "tailwindcss": "^2.0.2",
     "vue": "^2.6.12"
   },
   "devDependencies": {
-    "electron": "^10.1.3",
-    "electron-builder": "^22.8.1"
+    "electron": "^11.1.0",
+    "electron-builder": "^22.9.1"
   },
   "build": {
     "appId": "com.suchacharles.lightning",
