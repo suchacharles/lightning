@@ -42,7 +42,8 @@ function createWindow() {
     //icon: __dirname + './public/img/icon.ico',
     webPreferences: {
       nodeIntegration: true,
-      enableRemoteModule: false
+      enableRemoteModule: false,
+      contextIsolation: false
     },
     backgroundColor: '#FFFFFF'
   })
