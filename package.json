@@ -1,5 +1,5 @@
 {
-  "name": "Lightning",
+  "name": "lightning",
   "version": "0.7.1",
   "description": "A port forwarding utility",
   "main": "main.js",
@@ -19,7 +19,7 @@
   "author": "SuchACharles",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "electron-updater": "^4.3.5",
     "ngrok": "^3.4.0",
     "tailwindcss": "^2.0.2",
