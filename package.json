@@ -22,11 +22,11 @@
     "@fortawesome/fontawesome-free": "^5.15.2",
     "electron-updater": "^4.3.5",
     "ngrok": "^3.4.0",
-    "tailwindcss": "^2.0.2",
+    "tailwindcss": "^2.0.3",
     "vue": "^2.6.12"
   },
   "devDependencies": {
-    "electron": "^11.1.1",
+    "electron": "^11.2.3",
     "electron-builder": "^22.9.1"
   },
   "build": {
