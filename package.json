@@ -19,14 +19,14 @@
   "author": "SuchACharles",
   "license": "MIT",
   "dependencies": {
-    "electron-updater": "^4.3.5",
-    "ngrok": "^3.4.0",
-    "tailwindcss": "^2.0.3",
+    "electron-updater": "^4.3.8",
+    "ngrok": "^3.4.1",
+    "tailwindcss": "^2.0.4",
     "vue": "^2.6.12"
   },
   "devDependencies": {
-    "electron": "^11.3.0",
-    "electron-builder": "^22.9.1"
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5"
   },
   "build": {
     "appId": "com.suchacharles.lightning",
