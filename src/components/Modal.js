@@ -20,7 +20,7 @@ export default {
       <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
         Lightning
         <br>
-        <span class="text-indigo-600">A port forwarding utility.</span>
+        <span class="text-gray-300">A port forwarding utility.</span>
       </h2>
     </div>
 

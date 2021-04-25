@@ -18,7 +18,7 @@ export default {
   template: `
 <div>
 
-  <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <div class="max-w-sm rounded overflow-hidden bg-accent-1 border border-accent-2">
     <div class="px-6 py-4">
       <div class="font-bold text-2xl mb-2">Custom</div>
       <p class="text-gray-700 text-base">
@@ -32,7 +32,7 @@ export default {
 
     </div>
     <div class="px-6 pt-4 pb-2">
-      <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mb-4" onclick="lightning('Custom', localStorage.getItem('port'));">Port</button>
+      <button class="w-full font-semibold py-2 px-4 rounded border bg-black text-white hover:bg-white hover:text-black hover:border-black" onclick="lightning('Custom', localStorage.getItem('port'));">Port</button>
     </div>
   </div>
 
