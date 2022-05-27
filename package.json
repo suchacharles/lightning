@@ -1,6 +1,6 @@
 {
   "name": "lightning",
-  "version": "0.7.2",
+  "version": "0.8.0",
   "description": "A port forwarding utility",
   "main": "main.js",
   "scripts": {
@@ -19,14 +19,14 @@
   "author": "SuchACharles",
   "license": "MIT",
   "dependencies": {
-    "electron-updater": "^4.6.1",
-    "ngrok": "^4.2.2",
-    "tailwindcss": "^3.0.14",
+    "electron-updater": "^5.0.1",
+    "ngrok": "^4.3.1",
+    "tailwindcss": "^3.0.24",
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "electron": "^16.0.7",
-    "electron-builder": "^22.14.5"
+    "electron": "^19.0.1",
+    "electron-builder": "^23.0.3"
   },
   "build": {
     "appId": "com.suchacharles.lightning",
