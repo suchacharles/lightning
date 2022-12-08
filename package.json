@@ -2,11 +2,13 @@
   "name": "lightning",
   "version": "0.8.0",
   "description": "A port forwarding utility",
-  "main": "main.js",
+  "main": "main/index.js",
   "scripts": {
+    "clean": "rimraf dist renderer/.next renderer/out",
     "start": "electron .",
-    "dist": "electron-builder --win --x64",
-    "ship": "electron-builder --win --x64 -p always"
+    "build": "next build renderer && next export renderer",
+    "pack-app": "npm run build && electron-builder --dir",
+    "dist": "npm run build && electron-builder"
   },
   "repository": "https://github.com/SuchACharles/Lightning",
   "keywords": [
@@ -19,16 +21,28 @@
   "author": "SuchACharles",
   "license": "MIT",
   "dependencies": {
-    "electron-updater": "^5.0.1",
-    "ngrok": "^4.3.1",
-    "tailwindcss": "^3.0.24",
-    "vue": "^2.6.14"
+    "@headlessui/react": "^1.7.4",
+    "electron-is-dev": "^2.0.0",
+    "electron-next": "^3.1.5",
+    "electron-updater": "^5.3.0",
+    "ngrok": "^4.3.3"
   },
   "devDependencies": {
-    "electron": "^19.0.1",
-    "electron-builder": "^23.0.3"
+    "autoprefixer": "^10.4.13",
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0",
+    "next": "latest",
+    "postcss": "^8.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4"
   },
   "build": {
+    "asar": true,
+    "files": [
+      "main",
+      "renderer/out"
+    ],
     "appId": "com.suchacharles.lightning",
     "artifactName": "${productName}.${ext}",
     "win": {

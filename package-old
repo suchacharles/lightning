@@ -1,0 +1,5 @@
+/*
+// "start": "electron .",
+// "dist": "electron-builder --win --x64",
+// "ship": "electron-builder --win --x64 -p always"
+*/
